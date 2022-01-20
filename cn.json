@@ -819,7 +819,13 @@
             "NPC": {
                 "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮"
             },
-            "Dead": "死亡"
+            "Dead": "死亡",
+            "ApplyDamage": {
+                "DamagedForN": "{actor}受到{hpDamage}点伤害。",
+                "ShieldAbsorbed": "{actor}没有受到伤害，盾牌抵挡了{absorbedDamage}点伤害。",
+                "DamagedForNShield": "{actor}的盾牌抵挡了{absorbedDamage}点伤害, 并且自身受到{hpDamage}点穿透伤害。",
+                "HealedForN": "{actor}受到了{hpDamage}点治疗。"
+            }
         },
         "ActorSizeGargantuan": "巨型",
         "ActorSizeHuge": "超大型",
@@ -834,8 +840,8 @@
             "Title": "增加战斗熟练",
             "Message": "选择一个武器组或基本武器"
         },
-        "AddModifierTitle": "加上调整值",
-        "RemoveModifierTitle": "移除调整值",
+        "AddModifierTitle": "Add Modifier",
+        "RemoveModifierTitle": "Remove Modifier",
         "AddShortLabel": "加",
         "AddSpellTitle": "添加法术",
         "AddSpellcastingEntryTitle": "从法术列表添加",
@@ -968,7 +974,7 @@
         "ArmorTypeUnarmored": "无护甲",
         "Background": "背景",
         "BackgroundTitle": "你的 角色 背景",
-        "BaseModifier": "基础 调整值",
+        "BaseModifier": "基础调整值",
         "BestiaryBrowserSearchHint": "你可以根据名称或特征来检索，可用的特征如下列出：<br> 法术来源, 法术类型, 环级, 学派, 施法成份, 法术材料, 目标, 范围, 施法时间, 持续时间, 伤害, 伤害类型, 豁免, 专注, 仪式, 能力 和职业。 <br> 范例： '火焰, 伤害:d6' 可以显示所有名称中带有‘火焰’且伤害骰为d6的法术",
         "Biography": "笔记",
         "BiographyPrivateHeading": "私人记录",
@@ -986,7 +992,7 @@
             "circumstance": "环境加值",
             "item": "物品 加值",
             "status": "状态加值",
-            "untyped": "无类型加值"
+            "untyped": "无名加值"
         },
         "BonusSPLabel": "加值 SP",
         "BonusSPperLevel": "每等级P加值",
@@ -1364,7 +1370,7 @@
         "HeroPointLevel2": "2 英雄点",
         "HeroPointLevel3": "3 英雄点",
         "HeroPointsLabel": "英雄点",
-        "HitPointsHeader": "生命值",
+        "HitPointsHeader": "Hit Points",
         "HitPointsShortLabel": "HP",
         "HitPointsDetailsLabel": "HP详细",
         "HitPointsDetailsTitle": "与HP有关的补充信息，例如快速治疗和恢复",
@@ -1692,16 +1698,16 @@
         "MaxStaminaTitle": "最大耐力点",
         "MaxHitPointsHeader": "最大生命值",
         "MetalStrikes": "金属攻击",
-        "ModifierTitle": "调整值",
-        "ModifiersTitle": "调整值",
+        "ModifierTitle": "Modifier",
+        "ModifiersTitle": "Modifiers",
         "ModifierType": {
-            "ability": "能力",
-            "proficiency": "熟练",
-            "circumstance": "环境",
-            "item": "物品",
-            "potency": "潜力",
-            "status": "状态",
-            "untyped": "未分类"
+            "ability": "Ability",
+            "proficiency": "Proficiency",
+            "circumstance": "Circumstance",
+            "item": "Item",
+            "potency": "Potency",
+            "status": "Status",
+            "untyped": "Untyped"
         },
         "MultipleAttackPenalty": "多次攻击减值",
         "MysticStrikes": "魔法攻击",
@@ -1753,7 +1759,7 @@
             "circumstance": "环境减值",
             "item": "物品减值",
             "status": "状态减值",
-            "untyped": "无类别减值"
+            "untyped": "无名减值"
         },
         "PerceptionCheck": "察觉检定",
         "PerceptionHeader": "察觉",
