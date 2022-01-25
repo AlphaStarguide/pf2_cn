@@ -834,6 +834,8 @@
         "CompendiumBrowser": {
             "AddedItem": "Added {item} to the selected actor(s).",
             "AddedItemToCharacter": "Added {item} to {character}.",
+            "BestiaryBrowser": "Bestiary Browser",
+            "Hint": "Use the tabs above to select a compendium",
             "ProgressBar": {
                 "LoadingPack": "Loading {pack}",
                 "LoadingComplete": "Loading complete"
@@ -1369,7 +1371,15 @@
                     "PotencyStrikingThreeProperties": "+{potency} {striking} {property1} {property2} {property3} {base}",
                     "PotencyStrikingThreePropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {material} {base}",
                     "PotencyStrikingFourProperties": "+{potency} {striking} {property1} {property2} {property3} {property4} {base}",
-                    "PotencyStrikingFourPropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {property4} {material} {base}"
+                    "PotencyStrikingFourPropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {property4} {material} {base}",
+                    "OneProperty": "{property1} {base}",
+                    "OnePropertyMaterial": "{property1} {material} {base}",
+                    "TwoProperties": "{property1} {property2} {base}",
+                    "TwoPropertiesMaterial": "{property1} {property2} {material} {base}",
+                    "ThreeProperties": "{property1} {property2} {property3} {base}",
+                    "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
+                    "FourProperties": "{property1} {property2} {property3} {property4} {base}",
+                    "FourPropertiesMaterial": "{property1} {property2} {property3} {property4} {material} {base}"
                 },
                 "HandsLabel": "Hands",
                 "MandatoryMelee": "This weapon has a trait that can only be used with melee weapons.",
@@ -1782,6 +1792,7 @@
         "PropertyRuneLabel4": "Property Rune (4th)",
         "QuantityLabel": "Quantity",
         "QuantityShortLabel": "Qty.",
+        "RangePenalty": "Range Penalty",
         "Rarity": "Rarity",
         "Usage": "Usage",
         "Reach": "Reach (feet)",
@@ -2838,6 +2849,7 @@
         "TraitDescriptionLitany": "Litanies are special devotion spells, typically used by champions and requiring a single action, that usually give temporary immunity to further litanies.",
         "TraitDescriptionLizardfolk": "These reptilian humanoids, also known as iruxi, are extremely adaptable and patient.",
         "TraitDescriptionMagical": "Something with the magical trait is imbued with magical energies not tied to a specific tradition of magic. A magical item radiates a magic aura infused with its dominant school of magic. Some items or effects are closely tied to a particular tradition of magic. In these cases, the item has the arcane, divine, occult, or primal trait instead of the magical trait. Any of these traits indicate that the item is magical.",
+        "TraitDescriptionMagus": "This indicates abilities from the magus class.",
         "TraitDescriptionManipulate": "You must physically manipulate an item or make gestures to use an action with this trait. Creatures without a suitable appendage can't perform actions with this trait. Manipulate actions often trigger reactions.",
         "TraitDescriptionMechanical": "A hazard with this trait is a constructed physical object.",
         "TraitDescriptionMental": "A mental effect can alter the target's mind. It has no effect on an object or a mindless creature.",
@@ -3176,6 +3188,7 @@
         "TraitRange180": "Range 180 ft",
         "TraitRange200": "Range 200 ft",
         "TraitRange240": "Range 240 ft",
+        "TraitRange300": "Range 300 ft",
         "TraitRange500": "Range 500 ft",
         "TraitRangeIncrement10": "Range Increment 10 ft",
         "TraitRangeIncrement100": "Range Increment 100 ft",
